@@ -1,0 +1,13 @@
+[package]
+name = "pharovm-rs"
+version = "0.1.0"
+authors = ["feenk gmbh. <contact@feenk.com>"]
+edition = "2018"
+
+[lib]
+name = "PharoVM"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+bindgen = "0.52.0"
+fs_extra = "1.1.0"
